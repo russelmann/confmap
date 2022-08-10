@@ -1,0 +1,4 @@
+data/
+.idea/
+confmap.egg-info/
+__pycache__/
