@@ -2,3 +2,24 @@
 Native Python implementation of conformal mapping methods CETM and BFF (the only dependencies are NumPy and SciPy).
 
 Based on papers [Conformal Equivalence of Triangle Meshes](https://dl.acm.org/doi/10.1145/1360612.1360676), B. Springborn, P. Schröder, U. Pinkall, *ACM Transactions on Graphics* (2008) and [Boundary First Flattening](https://dl.acm.org/doi/10.1145/3132705), R. Sawhney, K. Crane, *ACM Transactions on Graphics* (2018).
+
+## Installation
+
+### From source
+
+1. Clone this repository.
+2. Go to root folder and build development version from source. `pip install -e .`
+
+## Usage example
+
+Read an OBJ file from data folder, generate a minimum distortion conformal map using BFF method, and output the original mesh with the UV conformal map as a new OBJ file.
+
+```python
+from confmap.confmap import BFF
+from confmap.io_utils import read_obj, write_obj
+
+vertices, faces = read_obj('../data/bumpcap.obj')
+cm = BFF(vertices, faces)
+cm.layout()
+write_obj('bumpcap_with_uv.obj', cm.vertices, cm.faces, cm.image.vertices, cm.image.faces)
+```
