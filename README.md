@@ -3,6 +3,16 @@ Native Python implementation of conformal mapping methods CETM and BFF (the only
 
 Based on papers [Conformal Equivalence of Triangle Meshes](https://dl.acm.org/doi/10.1145/1360612.1360676), B. Springborn, P. Schröder, U. Pinkall, *ACM Transactions on Graphics* (2008) and [Boundary First Flattening](https://dl.acm.org/doi/10.1145/3132705), R. Sawhney, K. Crane, *ACM Transactions on Graphics* (2018).
 
+<p align="center">
+  <img width="350" src="https://github.com/russelmann/confmap/blob/main/media/bumpcap_3d.png" alt="Bumpcap with UV checkerboard">
+  <br>Bumpcap mesh with UV checkerboard.
+</p>
+
+<p align="center">
+  <img width="500" src="https://github.com/russelmann/confmap/blob/main/media/bumpcap_maps.png" alt="Bumpcap plots">
+  <br>Application of different tools with the resulting scale factors (left) and quasi-conformal errors (right).
+</p>
+
 ## Installation
 
 ### From source
