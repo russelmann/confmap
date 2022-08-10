@@ -10,7 +10,7 @@ Based on papers [Conformal Equivalence of Triangle Meshes](https://dl.acm.org/do
 
 <p align="center">
   <img width="500" src="https://github.com/russelmann/confmap/blob/main/media/bumpcap_maps.png" alt="Bumpcap plots">
-  <br>Application of different tools with the resulting scale factors (left) and quasi-conformal errors (right).
+  <br>Application of different tools with the resulting log-scale factors (left) and quasi-conformal errors (right).
 </p>
 
 ## Installation
