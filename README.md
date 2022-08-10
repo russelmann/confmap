@@ -18,7 +18,7 @@ Based on papers [Conformal Equivalence of Triangle Meshes](https://dl.acm.org/do
 ### From source
 
 1. Clone this repository.
-2. Go to root folder and build development version from source. `pip install -e .`
+2. Go to root folder and install development version. `pip install -e .`
 
 ## Usage example
 
