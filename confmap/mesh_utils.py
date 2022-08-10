@@ -11,7 +11,7 @@ from scipy.sparse import csr_matrix, spmatrix
 from scipy.sparse.csgraph import dijkstra
 
 from confmap.common import FloatArray, IntArray, pairwise
-from confmap.comp_utils import mobius_normalize_layout, tri_angles
+from confmap.comp_utils import tri_angles
 
 
 def compute_mesh_edges(faces: IntArray, only_manifold: bool = True) -> Tuple[IntArray, IntArray, List[IntArray]]:
