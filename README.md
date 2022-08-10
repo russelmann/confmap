@@ -30,6 +30,6 @@ from confmap.io_utils import read_obj, write_obj
 
 vertices, faces = read_obj('../data/bumpcap.obj')
 cm = BFF(vertices, faces)
-cm.layout()
-write_obj('bumpcap_with_uv.obj', cm.vertices, cm.faces, cm.image.vertices, cm.image.faces)
+image = cm.layout()
+write_obj('bumpcap_with_uv.obj', cm.vertices, cm.faces, image.vertices, image.faces)
 ```
