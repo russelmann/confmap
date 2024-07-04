@@ -15,6 +15,10 @@ Based on papers [Conformal Equivalence of Triangle Meshes](https://dl.acm.org/do
 
 ## Installation
 
+### From git
+
+`pip install git+https://github.com/russelmann/confmap.git`
+
 ### From source
 
 1. Clone this repository.

@@ -1,4 +1,0 @@
-numpy~=1.22.3
-matplotlib~=3.5.1
-confmap~=0.0.1
-scipy~=1.7.3
